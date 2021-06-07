@@ -1,0 +1,484 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Yusei Magic', sans-serif;
+	font-size:125%;
+	margin:0px;
+	padding:0px;
+	background-color:#E0FFFF;
+	background-image:url(image/haikei.jpg);
+}
+
+.main{
+	width:960px;
+	margin:0 auto;
+	padding:20px 60px;
+	text-align:center;
+	line-height:1.8;
+	background-color:#ffffff;
+}
+
+h1,ul,footer{
+	text-align:center;
+}
+
+ul{
+	list-style-type:none;
+	padding-left:0;
+}
+
+nav li{
+	display:inline-block;
+	width:18%;
+	padding-left:0;
+	background:linear-gradient(transparent 80%, #87CEEB 0%);
+}
+
+a{
+	text-decoration:none;
+	color:#000000;
+}
+
+nav a:hover{
+	color:#ffffff;
+	background-color:#87CEEB;
+	border-radius:50px;
+	padding:3px;
+}
+
+.maingazo{
+	border-radius:30px;
+}
+
+h1{
+	font-size:160%;
+	margin:10px;
+	border-bottom:5px dotted #7B68EE;
+}
+
+h2{
+	font-size:140%;
+}
+
+.neko{
+	vertical-align:bottom;
+}
+
+section ul li{
+	margin-bottom:15px;
+}
+
+time{
+	margin-right:20px;
+}
+
+.time{
+	margin-bottom:30px;
+}
+
+.time li a{
+	padding:3px;
+}
+
+.time li a:hover{
+	color:#ffffff;
+	background-color:#87CEEB;
+	border-radius:50px;
+	padding:3px;
+}
+
+footer{
+	border-top:2px solid #191970;
+}
+
+.kiiro{
+	color:#FFD700;
+}
+
+.sentou{
+	padding:5px;
+	margin-left:700px;
+	border-left: solid 4px #668ad8;
+	border-right: solid 4px #668ad8;
+	color: #668ad8;
+	text-shadow: 0 0 5px white;
+	padding: 0.5em 1em;
+	background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+	transition: .4s;
+}
+
+.sentou:hover{
+	background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 5px,#e9f4ff 5px, #e9f4ff 9px);
+}
+
+
+/*パンくずリストここから*/
+
+ol li{
+	display:inline;
+	margin-right:5px;
+	font-size:90%;
+}
+
+ol{
+	text-align:left;
+	margin-left:30px
+}
+
+ol li a{
+	padding:3px;
+}
+
+ol li a:hover{
+	color:#ffffff;
+	background-color:#87CEEB;
+	border-radius:50px;
+	padding:3px;
+}
+
+/*パンくずリストここまで*/
+
+
+
+/*introduce*/
+
+.introduce1{
+	float:left;
+	margin-right:25px;
+}
+
+.introduce2{
+	clear:both;
+	float:right;
+	margin-left:25px;
+}
+
+.introduce3{
+	clear:both;
+	float:left;
+	margin-right:25px;
+}
+
+.syoukai1{
+	text-align:left;
+	padding-bottom:11px;
+}
+
+.syoukai2{
+	text-align:right;
+	padding-bottom:46px;
+}
+
+.kiji1{
+	margin-top:35px;
+	margin-bottom:50px;
+	background-color:#F0F8FF;
+}
+
+.kiji2{
+	margin-bottom:50px;
+	background-color:#F0F8FF;
+}
+
+.kiji3{
+	margin-top:10px;
+	margin-bottom:20px;
+	background-color:#F0F8FF;
+}
+
+.link{
+	margin-bottom:50px;
+}
+
+.red{
+	color:#FF0000;
+}
+
+h3 a{
+	color:#7B68EE;
+	border-bottom:3px dashed #7B68EE;
+}
+
+h3 a:hover{
+	color:#0000FF;
+	border-bottom:3px dashed #0000FF;
+}
+
+
+
+/*Menu*/
+
+.menu-hyou{
+	margin:20px auto;
+	background-image:url(image/menu.jpg);
+	background-position:center;
+	background-size:contain;
+	border-radius:20px;
+	color:#000000;
+	padding-left:30px;
+	padding-right:30px;
+	border:2px solid #000080;
+}
+
+.menu-hyou th{
+	font-size:130%;
+}
+
+.menu-hyou td{
+	padding:10px;
+}
+
+.menu-pic{
+	border-radius:50px;
+	width:190px;
+	height:190px;
+}
+
+.orange{
+	color:#FF8C00;
+}
+
+aside h1{
+	font-size:130%;
+	margin:0;
+	padding:5px;
+}
+
+aside li{
+	border-bottom:1px dotted #666666;
+}
+
+aside ul{
+	margin:0;
+	font-size:90%;
+}
+
+aside a{
+	display:block;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:5px;
+}
+
+aside a:hover{
+	background-color:#B0E0E6;
+}
+
+.select{
+	background-color:#DDA0DD;
+}
+
+.menu{
+	float:left;
+	width:75%;
+}
+
+aside{
+	float:right;
+}
+
+footer{
+	clear:both;
+}
+
+.small{
+	font-size:80%;
+}
+
+
+
+/*access*/
+
+.access-hyou{
+	margin:30px auto;
+	border:3px solid #000080;
+	border-collapse:collapse;
+}
+
+.access-hyou th{
+	padding:10px;
+	background-color:#AFEEEE;
+	border:3px solid #000080;
+	font-size:120%;
+}
+
+.access-hyou td{
+	border:3px solid #000080;
+	padding:5px 30px;
+}
+
+.insta{
+  	border-radius:40px;
+}
+
+.insta:hover{
+	box-shadow:0px 0px 20px rgba(0,0,0,0.4);
+}
+
+/*contact*/
+
+form{
+	margin-bottom:60px;
+	padding-bottom:20px;
+}
+
+input{
+	width:300px;
+	height:25px;
+}
+
+textarea{
+	width:500px;
+	height:100px;
+}
+
+button{
+	width:80px;
+	height:50px;
+	background-color:#e0ffff;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Yusei Magic', sans-serif;
+	font-size:100%;
+	border-radius:30px;
+}
+
+button:focus {
+	outline:0;
+}
+
+.tel-form,.mail-form{
+	background-image:url(image/haikei2.jpg);
+	background-position:top;
+}
+
+
+
+
+/*959px以下の場合*/
+@media(max-width:959px){
+body{
+	font-size:110%;
+}
+.main{
+	width:auto;
+}
+
+.main img{
+	max-width:100%;
+	height:auto;
+}
+
+header img{
+	width:500px;
+	height:170px;
+}
+
+h1{
+	font-size:140%;
+}
+
+h2{
+	font-size:120%;
+}
+
+.neko{
+	width:50px;
+	height:50px;
+}
+
+.introduce1,.introduce2,.introduce3{
+	float:none;
+	margin:0 auto;
+}
+
+.introduce2{
+	width:280px;
+	height:190px;
+}
+
+.introduce3{
+	width:280px;
+	height:190px;
+}
+
+.syoukai1,.syoukai2,.syoukai3{
+	text-align:center;
+}
+
+.syoukai2{
+	padding-bottom:11px;
+}
+
+.menu-hyou{
+	background-image:url(image/haikei2.jpg);
+}
+
+.menu{
+	float:none;
+	width:100%;
+}
+
+aside{
+	float:none;
+}
+
+.sentou{
+	margin:0 auto;
+}
+
+.access-hyou td{
+	padding:10px;
+}
+
+iframe{
+	width:400px;
+	height:300px;
+}
+
+}
+
+
+
+
+
+/*600px以下*/
+@media(max-width:600px){
+body{
+	font-size:80%;
+}
+
+header img{
+	width:400px;
+	height:150px;
+}
+
+.neko{
+	width:30px;
+	height:30px;
+}
+
+.access-hyou{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.access-hyou td{
+	padding:5px;
+}
+
+
+textarea{
+	width:300px;
+	height:100px;
+}
+
+button{
+	width:50px;
+	height:30px;
+}
+
+}
+
